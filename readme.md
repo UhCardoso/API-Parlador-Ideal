@@ -34,7 +34,7 @@ Neste repositório, está detalhado o processo da construção da API RestFull p
 
 No Frontend, foi criado uma aplicação para android em React Native, que terá o processo da sua construção documentada [neste repositório: criar link para repositório]
 
-## 2 - CONFIGURANTO AMBIENTE WINDOWS PARA RODAR API LARAVEL
+## 2 - CONFIGURANDO AMBIENTE WINDOWS PARA RODAR API LARAVEL
 Para configurar este ambiente iremos instalar as seguintes ferramentas em seu desktop: 
 - WSL: Um módulo de sistemas operacionais Windows para rodar um ambiente linux no ambiente da microsoft.
 - Docker: Serviço de virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres.
