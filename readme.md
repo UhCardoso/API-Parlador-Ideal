@@ -1,14 +1,14 @@
 # API PARLADOR IDEAL COM LARAVEL
 # Indice
-- 1. SOBRE O PROJETO
-- 2. CONFIGURANDO AMBIENTE WINDOWS PARA A API LARAVEL
+1.  SOBRE O PROJETO
+2.  CONFIGURANDO AMBIENTE WINDOWS PARA A API LARAVEL
     - 2.2 instalando WSl
         - 2.2.1 Comandos de instalação do WSL
         - 2.2.2 Habilitar o WSL para a versão 2
         - 2.2.3 Instale o terminal ubuntu
         - 2.2.4 Criar o arquivo .wslconfig
     - 2.3 - Instalando o Docker
-- 3. INSTALANDO O LARAVEL
+3. INSTALANDO O LARAVEL
      - 3.1 Baixando proeto do repositório
      - 3.2 Configurando o containers do projeto com o DockeR
 4.  POPULANDO BANCO DE DADOS
