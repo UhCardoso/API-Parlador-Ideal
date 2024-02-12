@@ -1,30 +1,36 @@
 # API PARLADOR IDEAL COM LARAVEL
+
+<div id="0" />
+
 # Indice
 1.  [SOBRE O PROJETO](#1)
 2.  [CONFIGURANDO AMBIENTE WINDOWS PARA A API LARAVEL](#2)
     - 2.2 [instalando WSl](#22)
-        - [2.2.1 Comandos de instalação do WSL](#221)
-        - [2.2.2 Habilitar o WSL para a versão 2](#222)
-        - [2.2.3 Instale o terminal ubuntu](#223)
-        - [2.2.4 Criar o arquivo .wslconfig](#224)
-    - [2.3 - Instalando o Docker](#23)
-        - [2.3.1 Baixe o instalador do docker do site oficial](#231)
-        - [2.3.2 Habilitando integração do Docker ao WSL](#232)
+        - 2.2.1 [Comandos de instalação do WSL](#221)
+        - 2.2.2 [Habilitar o WSL para a versão 2](#222)
+        - 2.2.3 [Instale o terminal ubuntu](#223)
+        - 2.2.4 [Criar o arquivo .wslconfig](#224)
+    - 2.3 - [Instalando o Docker](#23)
+        - 2.3.1 [Baixe o instalador do docker do site oficial](#231)
+        - 2.3.2 [Habilitando integração do Docker ao WSL](#232)
 3. [INSTALANDO O LARAVEL](#3)
-     - [3.1 Baixando proeto do repositório](#31)
-     - [3.2 Configurando o containers do projeto com o Docker](#32)
+     - 3.1 [Baixando proeto do repositório](#31)
+     - 3.2 [Configurando o containers do projeto com o Docker](#32)
 4.  [POPULANDO BANCO DE DADOS](#4)
-    - [4.1 - Criando seeder](#41)
-    - [4.2 Definindo os dados dos usuários](#42)
-    - [4.3 Criando seeder de postagens](#43)
+    - 4.1 - [Criando seeder](#41)
+    - 4.2 [Definindo os dados dos usuários](#42)
+    - 4.3 [Criando seeder de postagens](#43)
 5.  [ROTAS DA API](#5)
-    - [5.1 Rotas de usuários](#51)
-    - [5.2 Rodas de postagens](#52)
+    - 5.1 [Rotas de usuários](#51)
+    - 5.2 [Rodas de postagens](#52)
 6.  [Consumindo API com aplicação React Native](#6)
 
 <br>
 
+[Voltar ao índice](#0)
+
 <div id="1" />
+
 ## 1- SOBRE O PROJETO 
  O Parlador Ideal, consiste em um projeto de Software,  que visa facilitar a troca de ideias libertárias do grupo em questão. Então foi criado um software de blog para que as pessoas do grupo possam compartilhar suas ideias. Para contruir o software foram usadas tecnologias de Frontend e Backend.
  
@@ -37,39 +43,59 @@ Neste repositório, está detalhado o processo da construção da API RestFull p
 
 No Frontend, foi criado uma aplicação para android em React Native, que terá o processo da sua construção documentada [neste repositório](https://github.com/UhCardoso/Parlador-Ideal-React-Native).
 
+[Voltar ao índice](#0)
+
 <div id="2" />
+
 ## 2 - CONFIGURANDO AMBIENTE WINDOWS PARA RODAR API LARAVEL
 Para configurar este ambiente iremos instalar as seguintes ferramentas em seu desktop: 
 - WSL: Um módulo de sistemas operacionais Windows para rodar um ambiente linux no ambiente da microsoft.
 - Docker: Serviço de virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres.
 - Laravel: Laravel é um framework PHP livre e open-source para o desenvolvimento de sistemas web que utilizam o padrão MVC.
 
+[Voltar ao índice](#0)
+
 <div id="22" />
+
 ### 2.2- Instalando WSl
 
+[Voltar ao índice](#0)
+
 <div id="221" />
+
 #### 2.2.1 Comandos de instalação do WSL
 Abra o PowerShell como admnistrador e execute os seguintes comandos:
+
 ```
 cmd: dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```
 ```
 cmd: dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+```
+
+[Voltar ao índice](#0)
 
 <div id="222" />
-```
+
 #### 2.2.2 Habilitar o WSL para a versão 2
 ```
 cmd wsl --set-default-version 2
 ```
+
+[Voltar ao índice](#0)
+
 <div id="223" />
+
 #### 2.2.3 Instale o terminal Ubuntu
 Entre na loja da microsoft do windows e instale o Ububnu
 <div>   
     <img src="https://firebasestorage.googleapis.com/v0/b/werlen-dev.appspot.com/o/projects%2Freadmes%2Fparlador%20ideal%2Fubuntu.png?alt=media&token=ba0b1f53-4b35-46a2-b781-acfd75e5cc40" heigth="450" width="450">
 </div>
 
+[Voltar ao índice](#0)
+
 <div id="224" />
+
 #### 2.2.4 Criar o arquivo .wslconfig
 Vá para caminho "```C:\Users\<seu_usuario>```" em seu computador. Dentro do arquivo cole as seguintes configurações:
 ```
@@ -79,12 +105,23 @@ processors=4
 swap=2GB
 ```
 
+[Voltar ao índice](#0)
+
 <div id="23" />
+
 ### 2.3 - Instalando o Docker
+
+[Voltar ao índice](#0)
+
 <div id="231" />
+
 #### 2.3.1 Baixe o instalador do docker do site oficial
 Entre no site https://www.docker.com/products/docker-desktop/, faça o download do executavel e abra ele para iniciar o procedimento da instalação do Docker.
+
+[Voltar ao índice](#0)
+
 <div id="232" />
+
 #### 2.3.2 Habilitando integração do Docker ao WSL
 - Vá na configuração
 
@@ -100,9 +137,16 @@ Entre no site https://www.docker.com/products/docker-desktop/, faça o download 
     <img src="https://firebasestorage.googleapis.com/v0/b/werlen-dev.appspot.com/o/projects%2Freadmes%2Fparlador%20ideal%2Fapply.png?alt=media&token=c4e91c49-b54c-4fd5-a5d0-b19d4165da35" heigth="450" width="450">
 </div>
 
+[Voltar ao índice](#0)
+
 <div id="3" />
+
 ## 3- Instalando o Laravel
+
+[Voltar ao índice](#0)
+
 <div id="31" />
+
 ### 3.1 Baixando projeto do repositório
 - Abra o Terminal ubuntu e instale o repositório da API Parlador Ideal com o seguinte comando:
 ```
@@ -136,6 +180,11 @@ REDIS_HOST=redis
 REDIS_PASSWORD=null
 REDIS_PORT=6379
 ```
+
+[Voltar ao índice](#0)
+
+<div id="32" />
+
 ### 3.2 Configurando o containers do projeto com o Docker
 - Ainda com o terminal Ubuntu aberto, suba os containers do projeto
 
@@ -162,15 +211,29 @@ Acesse o projeto [http://localhost:8989](http://localhost:8989) e veja mostrou u
     <img src="https://firebasestorage.googleapis.com/v0/b/werlen-dev.appspot.com/o/projects%2Freadmes%2Fparlador%20ideal%2Flocalhost.png?alt=media&token=baf361a7-e782-4cc7-9618-e64cc0ff1230" heigth="600" width="600">
 </div>
 
+[Voltar ao índice](#0)
+
+<div id="4" />
+
 ## 4 - POPULANDO BANCO DE DADOS
+
 Para que possamos fazer o teste das rotas da API, primeiro deveremos popular o banco de dados da nossa API.
 No terminal "Ubuntu" usando o bash do Docker, vamos executar os seguintes comandos:
+
+[Voltar ao índice](#0)
+
+<div id="41" />
+
 ### 4.1 - Criando seeder de usuário
 Para gerar os dados de usuário
 
 ```
 php artisan make:seeder UserSeeder
 ```
+
+[Voltar ao índice](#0)
+
+<div id="42" />
 
 #### 4.2 Definindo os dados dos usuários
 Vá no diretório ```database/seeders``` e Abra o arquivo ```UserSeeder.php``` e dentro do método run, escreva o seguinte script para gerar 20 usuários na nossa aplicação, como no exemplo abaixo:
@@ -201,11 +264,20 @@ Após confugura o seeder, execute o comando:
 php artisan db:seed --class=UserSeeder
 ```
 
+[Voltar ao índice](#0)
+
+<div id="43" />
+
 ### 4.3 Criando seeder de postagens
 Para gerar os dados de postagem:
 ```
 php artisan make:seeder PostSeeder
 ```
+
+[Voltar ao índice](#0)
+
+<div id="44" />
+
 ### 4.4 Definindo os dados das postagens
 Vá no diretório ```database/seeders``` e Abra o arquivo PostSeeder.php e dentro do método run, escreva o seguinte script para gerar várias postagens na nossa aplicação, como no exemplo abaixo:
 ```
@@ -242,9 +314,17 @@ php artisan db:seed --class=PostSeeder
 
 #### ATENÇÃO!!! LEMBRE-SE DE APAGAR OS ARQUIVOS "```PostSeeder.php```" E "```UserSeeder.php```" APÓS CONCLUIR AS ETAPAS ACIMA.
 
+[Voltar ao índice](#0)
+
+<div id="5" />
+
 ## 5 - ROTAS DA API
 Após a conclusão das etapas descritas acima, você poderá usar o programa Postman para realizar o teste das rotas da API.
 As Rotas utilizadas durante o nosso projeto foram:
+
+[Voltar ao índice](#0)
+
+<div id="51" />
 
 ### 5.1 Rotas de usuários
 - Cadastrar usuario via método POST
@@ -267,6 +347,10 @@ http://localhost:8989/api/login
 <div>   
     <img src="https://firebasestorage.googleapis.com/v0/b/werlen-dev.appspot.com/o/projects%2Freadmes%2Fparlador%20ideal%2Flogar%20usuario.png?alt=media&token=55993479-e6b8-42e9-8a4f-cfaef1301065" heigth="600" width="600">
 </div>
+
+[Voltar ao índice](#0)
+
+<div id="52" />
 
 ### 5.2 Rodas de postagens
 - Criar postagem via método POST
@@ -309,6 +393,12 @@ http://localhost:8989/api/posts/{userId}/delete/{postId}
     <img src="https://firebasestorage.googleapis.com/v0/b/werlen-dev.appspot.com/o/projects%2Freadmes%2Fparlador%20ideal%2Fdelete%20postagem.png?alt=media&token=e1ff6c59-005c-4d71-80c9-7348dcb14943" heigth="600" width="600">
 </div>
 
+[Voltar ao índice](#0)
+
+<div id="4" />
+
 ## 6. Consumindo API com aplicação React Native
 Agora chegou a hora de configurarmos o projeto da Aplicação Frontend para consumirmos os dados da nossa API.
 Acesse este [este link](https://github.com/UhCardoso/Parlador-Ideal-React-Native) para ver o passo a passo de como confugurar o App Parlador Ideal.
+
+[Voltar ao índice](#0)
