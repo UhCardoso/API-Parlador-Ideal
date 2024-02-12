@@ -23,10 +23,10 @@
 <br>
 
 ## 1- SOBRE O PROJETO 
- O Parlador Ideal, consiste em um projeto de Software,  que visa facilitar a troca de ideias libertárias do grupo em questão. Precisamos construir uma prova de conceito o mais breve possível para concluir a venda do projeto. Para contruir o software foram usadas tecnologias de Frontend e Backend.
+ O Parlador Ideal, consiste em um projeto de Software,  que visa facilitar a troca de ideias libertárias do grupo em questão. Então foi criado um software de blog para que as pessoas do grupo possam compartilhar suas ideias. Para contruir o software foram usadas tecnologias de Frontend e Backend.
  
 <div style="text-align: center;">   
-    <img src="https://firebasestorage.googleapis.com/v0/b/werlen-dev.appspot.com/o/projects%2Freadmes%2Fparlador%20ideal%2Fapplogin.jpg?alt=media&token=bfe3d7c5-26a4-48da-94cf-26067644b295" heigth="200" width="200">
+    <img src="https://firebasestorage.googleapis.com/v0/b/werlen-dev.appspot.com/o/projects%2Freadmes%2Fparlador%20ideal%2Fapplogin.jpg?alt=media&token=25243eed-e669-40a4-bd35-e2a46e16f316" heigth="200" width="200">
 </div>
 
     
