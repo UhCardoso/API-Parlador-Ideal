@@ -179,7 +179,7 @@ class UserSeeder extends Seeder
 }
 ```
 
-Lembre-se de importar o "use Illuminate\Support\Facades\Hash;" e o "use App\Models\User;"
+Lembre-se de importar o "```use Illuminate\Support\Facades\Hash;```" e o "```use App\Models\User;```"
 
 Após confugura o seeder, execute o comando:
 ```
