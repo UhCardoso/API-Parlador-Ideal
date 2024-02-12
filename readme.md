@@ -1,27 +1,30 @@
 # API PARLADOR IDEAL COM LARAVEL
 # Indice
-1.  SOBRE O PROJETO
-2.  CONFIGURANDO AMBIENTE WINDOWS PARA A API LARAVEL
-    - 2.2 instalando WSl
-        - 2.2.1 Comandos de instalação do WSL
-        - 2.2.2 Habilitar o WSL para a versão 2
-        - 2.2.3 Instale o terminal ubuntu
-        - 2.2.4 Criar o arquivo .wslconfig
-    - 2.3 - Instalando o Docker
-3. INSTALANDO O LARAVEL
-     - 3.1 Baixando proeto do repositório
-     - 3.2 Configurando o containers do projeto com o DockeR
-4.  POPULANDO BANCO DE DADOS
-    - 4.1 - Criando seeder
-    - 4.2 Definindo os dados dos usuários
-    - 4.3 Criando seeder de postagens
-5.  ROTAS DA API
-    - 5.1 Rotas de usuários
-    - 5.2 Rodas de postagens
-6.  Consumindo API com aplicação React Native
+1.  [SOBRE O PROJETO](#1)
+2.  [CONFIGURANDO AMBIENTE WINDOWS PARA A API LARAVEL](#2)
+    - 2.2 [instalando WSl](#22)
+        - [2.2.1 Comandos de instalação do WSL](#221)
+        - [2.2.2 Habilitar o WSL para a versão 2](#222)
+        - [2.2.3 Instale o terminal ubuntu](#223)
+        - [2.2.4 Criar o arquivo .wslconfig](#224)
+    - [2.3 - Instalando o Docker](#23)
+        - [2.3.1 Baixe o instalador do docker do site oficial](#231)
+        - [2.3.2 Habilitando integração do Docker ao WSL](#232)
+3. [INSTALANDO O LARAVEL](#3)
+     - [3.1 Baixando proeto do repositório](#31)
+     - [3.2 Configurando o containers do projeto com o Docker](#32)
+4.  [POPULANDO BANCO DE DADOS](#4)
+    - [4.1 - Criando seeder](#41)
+    - [4.2 Definindo os dados dos usuários](#42)
+    - [4.3 Criando seeder de postagens](#43)
+5.  [ROTAS DA API](#5)
+    - [5.1 Rotas de usuários](#51)
+    - [5.2 Rodas de postagens](#52)
+6.  [Consumindo API com aplicação React Native](#6)
 
 <br>
 
+<div id="1" />
 ## 1- SOBRE O PROJETO 
  O Parlador Ideal, consiste em um projeto de Software,  que visa facilitar a troca de ideias libertárias do grupo em questão. Então foi criado um software de blog para que as pessoas do grupo possam compartilhar suas ideias. Para contruir o software foram usadas tecnologias de Frontend e Backend.
  
@@ -34,14 +37,17 @@ Neste repositório, está detalhado o processo da construção da API RestFull p
 
 No Frontend, foi criado uma aplicação para android em React Native, que terá o processo da sua construção documentada [neste repositório](https://github.com/UhCardoso/Parlador-Ideal-React-Native).
 
+<div id="2" />
 ## 2 - CONFIGURANDO AMBIENTE WINDOWS PARA RODAR API LARAVEL
 Para configurar este ambiente iremos instalar as seguintes ferramentas em seu desktop: 
 - WSL: Um módulo de sistemas operacionais Windows para rodar um ambiente linux no ambiente da microsoft.
 - Docker: Serviço de virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres.
 - Laravel: Laravel é um framework PHP livre e open-source para o desenvolvimento de sistemas web que utilizam o padrão MVC.
 
+<div id="22" />
 ### 2.2- Instalando WSl
-        
+
+<div id="221" />
 #### 2.2.1 Comandos de instalação do WSL
 Abra o PowerShell como admnistrador e execute os seguintes comandos:
 ```
@@ -49,17 +55,21 @@ cmd: dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-L
 ```
 ```
 cmd: dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+
+<div id="222" />
 ```
 #### 2.2.2 Habilitar o WSL para a versão 2
 ```
 cmd wsl --set-default-version 2
 ```
+<div id="223" />
 #### 2.2.3 Instale o terminal Ubuntu
 Entre na loja da microsoft do windows e instale o Ububnu
 <div>   
     <img src="https://firebasestorage.googleapis.com/v0/b/werlen-dev.appspot.com/o/projects%2Freadmes%2Fparlador%20ideal%2Fubuntu.png?alt=media&token=ba0b1f53-4b35-46a2-b781-acfd75e5cc40" heigth="450" width="450">
 </div>
 
+<div id="224" />
 #### 2.2.4 Criar o arquivo .wslconfig
 Vá para caminho "```C:\Users\<seu_usuario>```" em seu computador. Dentro do arquivo cole as seguintes configurações:
 ```
@@ -69,9 +79,12 @@ processors=4
 swap=2GB
 ```
 
+<div id="23" />
 ### 2.3 - Instalando o Docker
+<div id="231" />
 #### 2.3.1 Baixe o instalador do docker do site oficial
 Entre no site https://www.docker.com/products/docker-desktop/, faça o download do executavel e abra ele para iniciar o procedimento da instalação do Docker.
+<div id="232" />
 #### 2.3.2 Habilitando integração do Docker ao WSL
 - Vá na configuração
 
@@ -87,7 +100,9 @@ Entre no site https://www.docker.com/products/docker-desktop/, faça o download 
     <img src="https://firebasestorage.googleapis.com/v0/b/werlen-dev.appspot.com/o/projects%2Freadmes%2Fparlador%20ideal%2Fapply.png?alt=media&token=c4e91c49-b54c-4fd5-a5d0-b19d4165da35" heigth="450" width="450">
 </div>
 
+<div id="3" />
 ## 3- Instalando o Laravel
+<div id="31" />
 ### 3.1 Baixando projeto do repositório
 - Abra o Terminal ubuntu e instale o repositório da API Parlador Ideal com o seguinte comando:
 ```
