@@ -86,11 +86,11 @@ Entre no site https://www.docker.com/products/docker-desktop/, faça o download 
 ### 3.1 Baixando projeto do repositório
 - Abra o Terminal ubuntu e instale o repositório da API Parlador Ideal com o seguinte comando:
 ```
-git clone {link do repositório da api}
+git clone https://github.com/UhCardoso/API-Parlador-Ideal.git
 ```
 - Entre na pasta do projeto:
 ```
-cd app-laravel
+cd API-Parlador-Ideal
 ```
 - Crie o arquivo .env
 ```
