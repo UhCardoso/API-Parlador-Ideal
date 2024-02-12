@@ -24,9 +24,11 @@
 
 ## 1- SOBRE O PROJETO 
  O Parlador Ideal, consiste em um projeto de Software,  que visa facilitar a troca de ideias libertárias do grupo em questão. Precisamos construir uma prova de conceito o mais breve possível para concluir a venda do projeto. Para contruir o software foram usadas tecnologias de Frontend e Backend.
+ 
 <div style="text-align: center;">   
     <img src="https://firebasestorage.googleapis.com/v0/b/werlen-dev.appspot.com/o/projects%2Freadmes%2Fparlador%20ideal%2Fapplogin.jpg?alt=media&token=bfe3d7c5-26a4-48da-94cf-26067644b295" heigth="200" width="200">
 </div>
+
     
 Neste repositório, está detalhado o processo da construção da API RestFull para esse software, usando as seguintes tecnologias: Framework Laravel, Servidor Nginx, Banco de dados SQL e Redis para armazenamento de cache.
 
@@ -267,4 +269,4 @@ As Rotas utilizadas durante o nosso projeto foram:
 
 ## 6. Consumindo API com aplicação React Native
 Agora chegou a hora de configurarmos o projeto da Aplicação Frontend para consumirmos os dados da nossa API.
-Acesse este link{link} para ver o passo a passo de como confugurar o App Parlador Ideal.
+Acesse este [este link](https://github.com/UhCardoso/Parlador-Ideal-React-Native) para ver o passo a passo de como confugurar o App Parlador Ideal.
