@@ -158,7 +158,7 @@ php artisan make:seeder UserSeeder
 ```
 
 #### 4.2 Definindo os dados dos usuários
-Vá no diretório ```database/seeders``` e Abra o arquivo UserSeeder.php e dentro do método run, escreva o seguinte script para gerar 20 usuários na nossa aplicação, como no exemplo abaixo:
+Vá no diretório ```database/seeders``` e Abra o arquivo ```UserSeeder.php``` e dentro do método run, escreva o seguinte script para gerar 20 usuários na nossa aplicação, como no exemplo abaixo:
 ```
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Hash;
