@@ -218,7 +218,7 @@ Acesse o projeto [http://localhost:8989](http://localhost:8989) e veja mostrou u
 
 Para que possamos fazer o teste das rotas da API, primeiro deveremos popular o banco de dados da nossa API.
 No terminal "Ubuntu" usando o bash do Docker.
-Caso não esteja com o bash do container Docker aberto, utilize o seguinte comandk na pasta do projeto do App:
+Caso não esteja com o bash do container Docker aberto, utilize o seguinte comando na pasta do projeto da API Laravel:
 
 ```
 docker-compose exec app bash
