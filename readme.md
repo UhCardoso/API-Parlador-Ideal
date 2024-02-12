@@ -394,7 +394,7 @@ http://localhost:8989/api/posts/{userId}/delete/{postId}
 
 [Voltar ao índice](#0)
 
-<div id="4" />
+<div id="5" />
 
 ## 6. Consumindo API com aplicação React Native
 Agora chegou a hora de configurarmos o projeto da Aplicação Frontend para consumirmos os dados da nossa API.
