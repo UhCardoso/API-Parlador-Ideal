@@ -385,6 +385,9 @@ http://localhost:8989/api/posts
 http://localhost:8989/api/posts/{userId}/update/{postId}
 ```
 
+Irá atualizar postagem apenas se o userId informado for o criador da postagem informada via postId.
+Na API é feita uma verificação se o userId informado por parâmetro é o mesmo disponível na sessão de usuário autenticada.
+
 <div>   
     <img src="https://firebasestorage.googleapis.com/v0/b/werlen-dev.appspot.com/o/projects%2Freadmes%2Fparlador%20ideal%2Feditar%20postagem.png?alt=media&token=cf3b2867-b89c-43d3-ac28-d71d183c9b17" heigth="600" width="600">
 </div><br><br>
@@ -394,6 +397,9 @@ http://localhost:8989/api/posts/{userId}/update/{postId}
 ```
 http://localhost:8989/api/posts/{userId}/delete/{postId}
 ```
+
+Irá deletar postagem apenas se o userId informado for o criador da postagem informada via postId.
+Na API é feita uma verificação se o userId informado por parâmetro é o mesmo disponível na sessão de usuário autenticada.
 
 <div>   
     <img src="https://firebasestorage.googleapis.com/v0/b/werlen-dev.appspot.com/o/projects%2Freadmes%2Fparlador%20ideal%2Fdelete%20postagem.png?alt=media&token=e1ff6c59-005c-4d71-80c9-7348dcb14943" heigth="600" width="600">
