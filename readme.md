@@ -54,7 +54,10 @@ cmd: dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /
 ```cmd wsl --set-default-version 2```
 #### 2.2.3 Instale o terminal Ubuntu
 Entre na loja da microsoft do windows e instale o Ububnu
-{foto da ferramenta}
+<div>   
+    <img src="https://firebasestorage.googleapis.com/v0/b/werlen-dev.appspot.com/o/projects%2Freadmes%2Fparlador%20ideal%2Fubuntu.png?alt=media&token=ba0b1f53-4b35-46a2-b781-acfd75e5cc40" heigth="450" width="450">
+</div>
+
 #### 2.2.4 Criar o arquivo .wslconfig
 Vá para caminho "```C:\Users\<seu_usuario>```" em seu computador. Dentro do arquivo cole as seguintes configurações:
 ```
