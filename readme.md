@@ -14,7 +14,7 @@
         - 2.3.1 [Baixe o instalador do docker do site oficial](#231)
         - 2.3.2 [Habilitando integração do Docker ao WSL](#232)
 3. [INSTALANDO O LARAVEL](#3)
-     - 3.1 [Baixando proeto do repositório](#31)
+     - 3.1 [Baixando projeto do repositório](#31)
      - 3.2 [Configurando o containers do projeto com o Docker](#32)
 4.  [POPULANDO BANCO DE DADOS](#4)
     - 4.1 - [Criando seeder](#41)
