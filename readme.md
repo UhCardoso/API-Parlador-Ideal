@@ -27,7 +27,6 @@
 
 <br>
 
-[Voltar ao índice](#0)
 
 <div id="1" />
 
